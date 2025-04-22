@@ -1,0 +1,81 @@
+:root {
+  /* Base Theme Colors */
+  --bg-primary: #1e1e2e;      /* Slightly purple-tinted dark background */
+  --bg-secondary: #181825;    /* Darker background for contrasting elements */
+  --bg-tertiary: #313244;     /* Lighter background for hover states */
+  
+  /* Accent Colors */
+  --accent-primary: #74c7ec;  /* Bright teal for primary accents */
+  --accent-secondary: #cba6f7; /* Soft purple for secondary accents */
+  --accent-tertiary: #f5c2e7;  /* Pink for tertiary accents */
+  --accent-success: #a6e3a1;   /* Green for success states */
+  --accent-warning: #f9e2af;   /* Yellow for warnings */
+  --accent-error: #f38ba8;     /* Red for errors */
+  
+  /* Text Colors */
+  --text-primary: #cdd6f4;     /* Bright text for high contrast */
+  --text-secondary: #a6adc8;   /* Dimmer text for less emphasis */
+  --text-disabled: #6c7086;    /* Text for disabled elements */
+  
+  /* Border Colors */
+  --border-subtle: rgba(131, 148, 150, 0.1); /* Very subtle borders */
+  --border-light: rgba(131, 148, 150, 0.2);  /* Light borders */
+  --border-medium: rgba(131, 148, 150, 0.3); /* Medium borders */
+  
+  /* Shadows */
+  --shadow-small: 0 2px 4px rgba(0, 0, 0, 0.3);
+  --shadow-medium: 0 4px 8px rgba(0, 0, 0, 0.4);
+  
+  /* Status Colors */
+  --status-modified: var(--accent-warning);
+  --status-added: var(--accent-success);
+  --status-deleted: var(--accent-error);
+  --status-renamed: var(--accent-secondary);
+  
+  /* UI Element Specific */
+  --tab-active-bg: #313244;
+  --tab-inactive-bg: #1e1e2e;
+  --tab-hover-bg: #282838;
+  --tab-border: var(--border-subtle);
+  --tab-active-border: var(--accent-primary);
+  
+  /* Status Bar */
+  --statusbar-bg: linear-gradient(to right, #313244, #1e1e2e);
+  --statusbar-item-hover: #45475a;
+  
+  /* Side Bar */
+  --sidebar-bg: var(--bg-secondary);
+  --sidebar-item-hover: var(--bg-tertiary);
+  
+  /* Editor */
+  --editor-bg: var(--bg-primary);
+  --editor-line-highlight: rgba(131, 148, 150, 0.1);
+
+  /* List / Tree Styles */
+  --list-hover-bg: var(--bg-tertiary);
+  --list-active-selection-bg: #313244; /* Same as old hardcoded value, maybe var(--bg-tertiary) or slightly different? */
+  --list-active-selection-fg: var(--text-primary); /* Brighter text for selected */
+  --list-active-selection-border: var(--accent-secondary);
+
+  /* Input Fields */
+  --input-bg: var(--bg-secondary);
+  --input-fg: var(--text-primary);
+  --input-border: var(--border-light);
+  --input-focus-border: var(--accent-primary);
+
+  /* Buttons */
+  --button-primary-bg: var(--accent-primary);
+  --button-primary-fg: var(--bg-primary);
+  --button-primary-hover-bg: var(--accent-secondary);
+  --button-secondary-bg: var(--bg-tertiary);
+  --button-secondary-fg: var(--text-secondary);
+  --button-secondary-hover-bg: #45475a; /* Slightly darker than tertiary */
+  --button-active-bg: var(--accent-primary); /* For toggles */
+  --button-active-fg: var(--bg-primary);
+
+  /* Badges / Tags */
+  --badge-bg: var(--bg-tertiary);
+
+  /* Search Specific */
+  --search-highlight: rgba(249, 226, 175, 0.3); /* --accent-warning with alpha */
+}
