@@ -1,6 +1,5 @@
 ![Screenshot 2025-04-22 122332](https://github.com/user-attachments/assets/e5bb87e2-ac1b-4150-b80b-2280c10ccf04)# NexDark IDE
 
-![NexDark IDE Welcome Screen]![Screenshot 2025-04-22 122332](https://github.com/user-attachments/assets/5f0b7991-6390-4e6a-bf88-8eb6951dcf0c)
 
 
 A lightweight, fast, and open-source Integrated Development Environment (IDE) built with modern web technologies, aiming to provide a streamlined alternative to editors like VS Code.
